@@ -38,4 +38,5 @@ If you use the -d option, you must give it the file ID as an argument.
       -d DOWNLOAD_MEDIA, --download-media DOWNLOAD_MEDIA
                             Download Media with ID
 
+if you want to automatically scan several channels/groups, take a look at the fetch-all.sh script.
 
