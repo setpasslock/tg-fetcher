@@ -11,6 +11,16 @@ then:
 
 
 # Usage
+
+##What you need to know:
+
+The DEST_LANGUAGE argument is set to "tr" by default. So translations will be in Turkish by default. 
+
+You can give channel or group username to the -c parameter. 
+
+If you use the -d option, you must give it the file ID as an argument. 
+
+
     usage: tg-fetcher.py [-h] -c CHANNEL [-m MESSAGES_LIMIT] [-l DEST_LANGUAGE] [-p] [-n] [-d DOWNLOAD_MEDIA]
 
     This tool uses the telegram API to automatically fetch and translate messages from groups and channels. API is not required for translation. It can be useful for tracking foreign APT groups.
